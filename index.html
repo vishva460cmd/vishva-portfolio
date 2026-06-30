@@ -203,7 +203,7 @@
             </div>
             <pre class="code-content"><span class="keyword">const</span> <span class="variable">developer</span> = {
   <span class="property">name</span>: <span class="string">"Vishva S"</span>,
-  <span class="property">skills</span>: [<span class="string">"Web Dev"</span>, <span class="string">"AI/ML"</span>],
+  <span class="property">skills</span>: [<span class="string"></span>, <span class="string">"AI/ML"</span>],
   <span class="property">passion</span>: <span class="string">"Creating Impact"</span>,
   <span class="property">available</span>: <span class="boolean">true</span>
 };</pre>
@@ -233,10 +233,10 @@
     <div class="container">
         <h2 class="section-title">Skills & Technologies</h2>
         <div class="skills-grid">
-            <div class="skill-card"><div class="skill-icon">🎨</div><h3>Frontend</h3><p>HTML, CSS, JavaScript, React, Vue.js</p></div>
-            <div class="skill-card"><div class="skill-icon">⚙️</div><h3>Backend</h3><p>Node.js, Python, Java, REST APIs</p></div>
-            <div class="skill-card"><div class="skill-icon">🗄️</div><h3>Database</h3><p>MongoDB, MySQL, PostgreSQL</p></div>
-            <div class="skill-card"><div class="skill-icon">🛠️</div><h3>Tools</h3><p>Git, Docker, VS Code, Figma</p></div>
+            <div class="skill-card"><div class="skill-icon">🎨</div><h3>Frontend</h3><p>HTML, CSS, </p></div>
+            <div class="skill-card"><div class="skill-icon">⚙️</div><h3>Backend</h3><p> Python, Java, </p></div>
+            <div class="skill-card"><div class="skill-icon">🗄️</div><h3>Database</h3><p>MongoDB </p></div>
+            <div class="skill-card"><div class="skill-icon">🛠️</div><h3>Tools</h3><p>Git, , VS Code </p></div>
         </div>
     </div>
 </section>
@@ -246,41 +246,11 @@
         <h2 class="section-title">Featured Projects</h2>
         <div class="projects-grid">
 
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="project-placeholder"><span class="proj-icon">🛒</span>E-Commerce Platform</div>
+            
                 </div>
-                <div class="project-info">
-                    <h3>E-Commerce Platform</h3>
-                    <p>A full-stack shopping platform with user authentication, cart functionality, and payment integration.</p>
-                    <div class="project-tags"><span>React</span><span>Node.js</span><span>MongoDB</span></div>
-                    <div class="project-links"><a href="#" class="project-link">Live Demo →</a><a href="#" class="project-link">GitHub →</a></div>
-                </div>
-            </div>
+        
+         
 
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="project-placeholder"><span class="proj-icon">✅</span>Task Management App</div>
-                </div>
-                <div class="project-info">
-                    <h3>Task Management App</h3>
-                    <p>A productivity application for managing tasks with drag-and-drop functionality and team collaboration.</p>
-                    <div class="project-tags"><span>Vue.js</span><span>Firebase</span><span>Tailwind</span></div>
-                    <div class="project-links"><a href="#" class="project-link">Live Demo →</a><a href="#" class="project-link">GitHub →</a></div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <div class="project-placeholder"><span class="proj-icon">🌤️</span>Weather Dashboard</div>
-                </div>
-                <div class="project-info">
-                    <h3>Weather Dashboard</h3>
-                    <p>Real-time weather application with location-based forecasts and interactive visualizations.</p>
-                    <div class="project-tags"><span>JavaScript</span><span>API</span><span>CSS3</span></div>
-                    <div class="project-links"><a href="#" class="project-link">Live Demo →</a><a href="#" class="project-link">GitHub →</a></div>
-                </div>
-            </div>
 
             <!-- NEW PROJECT -->
             <div class="project-card">
@@ -293,7 +263,7 @@
                     <h3>PDF Quiz Generator <span class="new-badge">New</span></h3>
                     <p>Upload any PDF — the app extracts its text, sends it to an AI model to generate multiple-choice questions, then automatically builds a Google Form styled as a polished quiz, ready to share instantly.</p>
                     <div class="project-tags"><span>Python</span><span>PyMuPDF</span><span>Groq AI</span><span>Google Forms API</span></div>
-                    <div class="project-links"><a href="#" class="project-link">Live Demo →</a><a href="#" class="project-link">GitHub →</a></div>
+                    <div class="project-links"><a href="#" class="project-link">GitHub →</a></div>
                 </div>
             </div>
 
@@ -358,23 +328,21 @@
 // ===== PROFILE DATA =====
 const profileData = {
     personal: {
-        name: "Vishva S", title: "Software Developer & Designer",
+        name: "Vishva S", title: "AI Engineer",
         bio: "Passionate developer with a keen eye for design, creating seamless user experiences.",
-        experience: "2+ years", projects: "10+", technologies: "5+",
+        Education:"B.sc Artifical intelligence and Machine learning"
         email: "vishva@example.com", phone: "+91 8610131602",
         location: "Tirunelveli, India",
         linkedin: "https://www.linkedin.com/in/vishva-s-a751b3333"
     },
     skills: {
-        frontend: ["HTML", "CSS", "JavaScript", "React", "Vue.js"],
-        backend: ["Node.js", "Python", "Java", "REST APIs"],
-        database: ["MongoDB", "MySQL", "PostgreSQL"],
-        tools: ["Git", "Docker", "VS Code", "Figma"]
+        frontend: ["HTML", "CSS", ],
+        backend: [ "Python", "Java", ],
+        database: ["MongoDB", ],
+        tools: ["Git",  "VS Code",]
     },
     projects: [
-        { name: "E-Commerce Platform", description: "Full-stack shopping platform with user auth, cart, and payment integration.", tech: ["React", "Node.js", "MongoDB"] },
-        { name: "Task Management App", description: "Productivity app with drag-and-drop tasks and team collaboration.", tech: ["Vue.js", "Firebase", "Tailwind"] },
-        { name: "Weather Dashboard", description: "Real-time weather app with location-based forecasts and visualizations.", tech: ["JavaScript", "API", "CSS3"] },
+       
         { name: "PDF Quiz Generator", description: "Uploads a PDF, extracts text with PyMuPDF, generates MCQ quiz questions via Groq AI, then auto-creates a Google Form quiz ready to share.", tech: ["Python", "PyMuPDF", "Groq AI", "Google Forms API"] }
     ]
 };
@@ -419,7 +387,7 @@ document.querySelectorAll('.skill-card, .project-card, .about-content').forEach(
 
 // ===== TYPING EFFECT =====
 const taglineEl = document.querySelector('.tagline');
-const roles = ['Software Developer', 'UI/UX Designer', 'AI Enthusiast', 'Problem Solver'];
+const roles = [ 'AI Engineer', 'Problem Solver'];
 let ri=0, ci=0, del=false;
 function type() {
     const r = roles[ri];
